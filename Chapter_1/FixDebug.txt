@@ -1,0 +1,21 @@
+public class FixDebug One
+{
+   /* This program displays a greeting */
+   public static void Main(String args)   
+   {
+      Systm.out.println("Hello World!")         
+   }
+
+/*
+List down the spotted bugs below:
+
+e.g.
+- // wrong syntax for access modifier "publlic" instead of "public"
+
+Bugs:
+1. Class name should not have spaces, "FixDebug One" (With space) but should be "FixDebugOne".
+2. Method name case should be lowercase, "Main" but should be "main".
+3. Method Parameter is missing some array, "String args" should be "String [] args".
+4. I noticed that in print statement, the word System is misspelled. "Systm" should be spelled "System".
+5. The System.out.println("Hello World!") statement is missing a semicolon at the end.
+*/
