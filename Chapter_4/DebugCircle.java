@@ -29,19 +29,6 @@ class DebugCircle {
     public double getArea() {
         return area;
     }
-    
-      public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the radius of the circle: ");
-        int r = input.nextInt();
-
-        DebugCircle circle = new DebugCircle(r);
-
-        System.out.println("\nCircle Details:");
-        System.out.println("Radius: " + circle.getRadius());
-        System.out.println("Diameter: " + circle.getDiameter());
-        System.out.println("Area: " + circle.getArea());
-
-        input.close();  }
 }
+
